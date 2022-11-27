@@ -1,0 +1,22 @@
+{
+    "name": "quickjs-fetch-ts",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "build": "tsc",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@types/node-fetch": "^2.6.2",
+        "node-fetch": "^2.6.7",
+        "quickjs-emscripten": "^0.21.0"
+    },
+    "devDependencies": {
+        "typescript": "^4.9.3"
+    }
+}
