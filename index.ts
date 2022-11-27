@@ -43,7 +43,6 @@ async function test(quickJS: QuickJSWASMModule): Promise<void> {
         const start = Date.now();
         // Don't run for longer than 10 seconds
         runtime.setInterruptHandler(() => {
-            console.log("interrupt");
             return Date.now() - start > 10 * 1000;
         });
 
