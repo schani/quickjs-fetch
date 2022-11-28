@@ -1,6 +1,8 @@
 import { getQuickJS, QuickJSWASMModule, Scope } from "quickjs-emscripten";
 import fetch from "node-fetch";
 
+// const code = `Object.getOwnPropertyNames(this).join(", ")`;
+
 const code = `
 (async function () {
 const res = await fetch(
